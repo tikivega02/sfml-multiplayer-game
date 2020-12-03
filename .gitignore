@@ -3,3 +3,5 @@ bin
 build
 client1.txt
 client2.txt
+.client1.txt
+.client2.txt
