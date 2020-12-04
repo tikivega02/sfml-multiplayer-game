@@ -27,11 +27,11 @@ target_link_libraries(client2 -lsfml-window -lsfml-system -lsfml-graphics -lglad
 # Set the folder to store the executable format
 set_target_properties(client1 
     PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY ../bin/
+    RUNTIME_OUTPUT_DIRECTORY bin/
 )
 
 # Set the folder to store the executable format
 set_target_properties(client2
     PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY ../bin/
+    RUNTIME_OUTPUT_DIRECTORY bin/
 )
